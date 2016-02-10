@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-       echo "Класс Мчко Софьи";
+       echo "Класс Мычко Софьи";
         ?>
     </body>
 </html>

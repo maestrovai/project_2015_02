@@ -1,0 +1,9 @@
+package com.irgups.sabina.irgupsinfo;
+
+public class StudentInfo {
+  static String appVersion = "0.1";
+  static final int DEV_WIDTH = 1024;
+  static final int DEV_HEIGHT = 768;
+  static String stud_id = "";
+  static String code = "";
+}

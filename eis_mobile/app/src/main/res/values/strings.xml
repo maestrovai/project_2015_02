@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Справочник ИрГУПС</string>
+    <string name="scan_process_label">Сканирование…</string>
+    <string name="scan_label">Scan</string>
+    <string name="scan_result_label">Результат: </string>
+    <string name="scan_main">Сканировать</string>
+    <string name="login"> Авторизация</string>
+    <string name="timetable">Расписание</string>
+    <string name="info">Cведения</string>
+    <string name="img_login">user_login</string>
+    <string name="button_login">Войти</string>
+    <string name="look_for">Просмотреть</string>
+
+</resources>

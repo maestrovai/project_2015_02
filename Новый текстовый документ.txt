@@ -1,0 +1,11 @@
+all: assembly
+	@echo "Compile end"
+compile: clean
+	"C:\Program Files\Java\jdk1.7.0_71\bin\javac.exe" -d Classes "src\proba\Proba.java"
+	"C:\Program Files\Java\jdk1.7.0_71\bin\javac.exe" -d Classes -cp Classes;"C:\Program Files\NetBeans 8.0.2\platform\modules\ext\junit-4.10.jar" test\proba\ProbaTest.java
+clean:                                                                                       
+	del /Q Classes\proba\*.class start\*.jar
+test: compile
+	"C:\Program Files\Java\jdk1.7.0_71\bin\java.exe" -cp Classes;"C:\Program Files\NetBeans 8.0.2\platform\modules\ext\junit-4.10.jar" org.junit.runner.JUnitCore proba.ProbaTest
+assembly: test
+	"C:\Program Files\Java\jdk1.7.0_71\bin\jar.exe" -cfe start\Proba.jar proba.Proba -C Classes proba\Proba.class
